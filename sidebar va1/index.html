@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidebar menu</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="logo_content">
+        <div class="logo">
+          <i class="bx bxl-c-plus-plus"></i>
+          <div class="logo_name">Logo name</div>
+        </div>
+        <i class="bx bx-menu" id="btn"></i>
+      </div>
+      <ul class="nav_list">
+        <li>
+          <i class="bx bx-search"></i>
+          <input type="text" placeholder="Search..." />
+          <span class="tooltip">Search</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-grid-alt"></i>
+            <span class="links_name">Dashboard</span>
+          </a>
+          <span class="tooltip">Dashboard</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-user"></i>
+            <span class="links_name">User</span>
+          </a>
+          <span class="tooltip">User</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-chat"></i>
+            <span class="links_name">Messages</span>
+          </a>
+          <span class="tooltip">Messages</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-pie-chart-alt-2"></i>
+            <span class="links_name">Analytics</span>
+          </a>
+          <span class="tooltip">Analytics</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-folder"></i>
+            <span class="links_name">File Manager</span>
+          </a>
+          <span class="tooltip">File Manager</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-cart-alt"></i>
+            <span class="links_name">Orders</span>
+          </a>
+          <span class="tooltip">Orders</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-heart"></i>
+            <span class="links_name">Saved</span>
+          </a>
+          <span class="tooltip">Saved</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-cog"></i>
+            <span class="links_name">Settings</span>
+          </a>
+          <span class="tooltip">Settings</span>
+        </li>
+      </ul>
+      <div class="profile_content">
+        <div class="profile">
+          <div class="profile_details">
+            <img
+              src="https://images.unsplash.com/photo-1626682929870-21cfb734281e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80"
+              alt=""
+            />
+            <div class="name_job">
+              <div class="name">Ivan Ivanov</div>
+              <div class="job">Web Designer</div>
+            </div>
+          </div>
+          <i class="bx bx-log-out" id="logout"></i>
+        </div>
+      </div>
+    </div>
+    <div class="home_content">
+      <div class="text">Home Content</div>
+    </div>
+  </body>
+  <script type="text/javascript" src="script.js"></script>
+</html>

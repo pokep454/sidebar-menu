@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidebar menu with submenus</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+    <div class="sidebar">
+      <div class="close-btn">
+        <i class="fas fa-times"></i>
+      </div>
+      <div class="menu">
+        <div class="item">
+          <a href="#"><i class="fas fa-desktop"></i>Dashboard</a>
+        </div>
+        <div class="item">
+          <a class="sub-btn"
+            ><i class="fas fa-table"></i>Table <i class="fas fa-angle-right dropdown"></i
+          ></a>
+          <div class="sub-menu">
+            <a class="sub-item" href="#">Sub Item 1</a>
+            <a class="sub-item" href="#">Sub Item 2</a>
+            <a class="sub-item" href="#">Sub Item 3</a>
+          </div>
+        </div>
+        <div class="item">
+          <a href="#"><i class="fas fa-th"></i>Forms</a>
+        </div>
+        <div class="item">
+          <a class="sub-btn" href="#"
+            ><i class="fas fa-cogs"></i>Settings<i class="fas fa-angle-right dropdown"></i
+          ></a>
+          <div class="sub-menu">
+            <a class="sub-item" href="#">Sub Item 1</a>
+            <a class="sub-item" href="#">Sub Item 2</a>
+          </div>
+        </div>
+        <div class="item">
+          <a href="#"><i class="fas fa-info-circle"></i>About</a>
+        </div>
+      </div>
+    </div>
+    <section class="main">
+      <h1>Sidebar Menu With <br />Submenus</h1>
+    </section>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
